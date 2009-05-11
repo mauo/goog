@@ -1,0 +1,22 @@
+    def index
+        client = GData::Client::Calendar.new
+        scope = 'http://www.google.com/calendar/feeds/'
+        next_url = 'http://localhost:3000/welcome/'
+        secure = false  # set secure = true for signed AuthSub requests
+        sess = true
+        @authsub_link = GData::Auth::AuthSub.get_url(next_url, scope, secure, sess)
+        if !params[:token].nil?
+            client.authsub_token = params[:token] # extract the single-use token from the URL query params
+            session[:token] = client.au
+            client.authsub_token = session[:token] if session[:token]
+            @goog_ok=true
+            @welcome_message = "hello logged user"
+        end
+    end
+
+    def logout
+        client.authsub_token = session[:token] if session[:token]
+        client.auth_handler.revoke
+        render :text => "you have been logged out"
+    end
+kkkkko

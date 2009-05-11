@@ -1,0 +1,2457 @@
+/!\ FAILSAFE /!\  Fri May 08 19:50:48 -0700 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:102:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:28:in `dispatch'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /usr/bin/mongrel_rails:19:in `load'
+    /usr/bin/mongrel_rails:19
+/!\ FAILSAFE /!\  Fri May 08 19:51:39 -0700 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Fri May 08 19:52:14 -0700 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 19:53:24) [GET]
+
+NameError (uninitialized constant WelcomeController::GData):
+  app/controllers/welcome_controller.rb:7:in `index'
+
+Rendered rescues/_trace (35.1ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 19:54:24) [GET]
+
+NameError (uninitialized constant WelcomeController::GData):
+  app/controllers/welcome_controller.rb:7:in `index'
+
+Rendered rescues/_trace (34.7ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 19:58:44) [GET]
+Rendering welcome/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 19:59:07) [GET]
+Rendering welcome/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:01:33) [GET]
+Rendering welcome/index
+ERROR: compiling _run_erb_app47views47welcome47index46html46erb RAISED compile error
+/home/mauo/Documents/goog/app/views/welcome/index.html.erb:2: syntax error, unexpected $undefined
+...cat(( link_to "google login",${@authsub_link} ).to_s); @outp...
+                              ^
+Function body:           def _run_erb_app47views47welcome47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Welcome#index</h1>\n\t"
+; @output_buffer.concat(( link_to "google login",${@authsub_link} ).to_s); @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/mauo/Documents/goog/app/views/welcome/index.html.erb:6:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:102:in `dispatch_cgi'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:28:in `dispatch'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/usr/bin/mongrel_rails:19:in `load'
+/usr/bin/mongrel_rails:19
+
+ActionView::TemplateError (compile error
+/home/mauo/Documents/goog/app/views/welcome/index.html.erb:2: syntax error, unexpected $undefined
+...cat(( link_to "google login",${@authsub_link} ).to_s); @outp...
+                              ^) on line #2 of app/views/welcome/index.html.erb:
+1: <h1>Welcome#index</h1>
+2: 	<%= link_to "google login",${@authsub_link} %>
+
+    app/views/welcome/index.html.erb:6:in `compile!'
+
+Rendered rescues/_trace (90.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:02:00) [GET]
+Rendering welcome/index
+ERROR: compiling _run_erb_app47views47welcome47index46html46erb RAISED compile error
+/home/mauo/Documents/goog/app/views/welcome/index.html.erb:3: syntax error, unexpected ';'
+; @output_buffer
+ ^
+/home/mauo/Documents/goog/app/views/welcome/index.html.erb:6: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47welcome47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Welcome#index</h1>\n\t"
+; @output_buffer.concat(( link_to "google login",#{@authsub_link} ).to_s); @output_buffer.concat "\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/mauo/Documents/goog/app/views/welcome/index.html.erb:6:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:102:in `dispatch_cgi'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:28:in `dispatch'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/home/mauo/.gem/ruby/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/usr/bin/mongrel_rails:19:in `load'
+/usr/bin/mongrel_rails:19
+
+ActionView::TemplateError (compile error
+/home/mauo/Documents/goog/app/views/welcome/index.html.erb:3: syntax error, unexpected ';'
+; @output_buffer
+ ^
+/home/mauo/Documents/goog/app/views/welcome/index.html.erb:6: syntax error, unexpected kEND, expecting ')') on line #3 of app/views/welcome/index.html.erb:
+1: <h1>Welcome#index</h1>
+2: 	<%= link_to "google login",#{@authsub_link} %>
+
+    app/views/welcome/index.html.erb:6:in `compile!'
+
+Rendered rescues/_trace (64.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:02:29) [GET]
+Rendering welcome/index
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:03:25) [GET]
+Rendering welcome/index
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:05:19) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:05:20) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:05:46) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCvgOGyAQ"}
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCvgOGyAQ]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:06:07) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:10:18) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.nil):
+  app/controllers/welcome_controller.rb:3:in `index'
+
+Rendered rescues/_trace (34.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:11:00) [GET]
+Rendering welcome/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:11:43) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:11:54) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCA_d-MBw"}
+Rendering welcome/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCA_d-MBw]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:50:47) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCA_d-MBw"}
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb7962cd0>):
+  app/controllers/welcome_controller.rb:5:in `index'
+
+Rendered rescues/_trace (117.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-08 20:51:32) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCA_d-MBw"}
+
+SyntaxError (/home/mauo/Documents/goog/app/controllers/welcome_controller.rb:22: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (99.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:51:58) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCA_d-MBw"}
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb7a7049c>):
+  app/controllers/welcome_controller.rb:5:in `index'
+
+Rendered rescues/_trace (104.2ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:52:43) [GET]
+Rendering welcome/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:52:48) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDu7oKg-P____8B"}
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb780b5f8>):
+  app/controllers/welcome_controller.rb:5:in `index'
+
+Rendered rescues/_trace (63.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:54:26) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDu7oKg-P____8B"}
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb7556218>):
+  app/controllers/welcome_controller.rb:5:in `index'
+
+Rendered rescues/_trace (98.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:54:27) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDu7oKg-P____8B"}
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb7bbf2d0>):
+  app/controllers/welcome_controller.rb:5:in `index'
+
+Rendered rescues/_trace (99.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:54:34) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:54:40) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCIkYPWAg"}
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb76219f4>):
+  app/controllers/welcome_controller.rb:5:in `index'
+
+Rendered rescues/_trace (86.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:55:01) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCIkYPWAg"}
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb796d464>):
+  app/controllers/welcome_controller.rb:5:in `index'
+
+Rendered rescues/_trace (71.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:55:44) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 20:56:28) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDY2_TE-P____8B"}
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb7711378>):
+  app/controllers/welcome_controller.rb:5:in `index'
+
+Rendered rescues/_trace (85.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:00:29) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:01:13) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:01:15) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:01:30) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:04:46) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:04:51) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDp0bev-v____8B"}
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb7871b64>):
+  app/controllers/welcome_controller.rb:5:in `index'
+
+Rendered rescues/_trace (35.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:06:18) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDp0bev-v____8B"}
+
+NameError (uninitialized constant GData::Client::Calender):
+  app/controllers/welcome_controller.rb:5:in `index'
+
+Rendered rescues/_trace (83.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:07:22) [GET]
+
+NameError (uninitialized constant GData::Client::Calender):
+  app/controllers/welcome_controller.rb:10:in `index'
+
+Rendered rescues/_trace (112.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:10:11) [GET]
+Rendering welcome/index
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:10:13) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:10:14) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:10:19) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDNz5fb______8B"}
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDNz5fb______8B]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:15:56) [GET]
+Rendering welcome/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:16:02) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCT0fWO______8B"}
+Rendering welcome/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCT0fWO______8B]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:20:21) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:20:26) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCqm8W-_P____8B"}
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb79af7ec>):
+  app/controllers/welcome_controller.rb:12:in `index'
+
+Rendered rescues/_trace (113.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:27:06) [GET]
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb77b94b0>):
+  app/controllers/welcome_controller.rb:11:in `index'
+
+Rendered rescues/_trace (47.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:27:09) [GET]
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb7508068>):
+  app/controllers/welcome_controller.rb:11:in `index'
+
+Rendered rescues/_trace (108.4ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:27:33) [GET]
+
+NoMethodError (undefined method `authsub_token=' for "http://www.google.com/calendar/feeds/":String):
+  app/controllers/welcome_controller.rb:11:in `index'
+
+Rendered rescues/_trace (33.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:27:57) [GET]
+
+NoMethodError (undefined method `authsub_token=' for GData::Auth::AuthSub:Class):
+  app/controllers/welcome_controller.rb:11:in `index'
+
+Rendered rescues/_trace (62.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:28:49) [GET]
+
+NoMethodError (undefined method `authsub_token=' for GData::Auth::AuthSub:Class):
+  app/controllers/welcome_controller.rb:11:in `index'
+
+Rendered rescues/_trace (148.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:28:49) [GET]
+
+NoMethodError (undefined method `authsub_token=' for GData::Auth::AuthSub:Class):
+  app/controllers/welcome_controller.rb:11:in `index'
+
+Rendered rescues/_trace (98.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:28:50) [GET]
+
+NoMethodError (undefined method `authsub_token=' for GData::Auth::AuthSub:Class):
+  app/controllers/welcome_controller.rb:11:in `index'
+
+Rendered rescues/_trace (52.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:31:39) [GET]
+
+NameError (undefined local variable or method `scope' for #<WelcomeController:0xb7cac8f0>):
+  app/controllers/welcome_controller.rb:8:in `index'
+
+Rendered rescues/_trace (33.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:31:52) [GET]
+
+NameError (undefined local variable or method `scope' for #<WelcomeController:0xb7617260>):
+  app/controllers/welcome_controller.rb:8:in `index'
+
+Rendered rescues/_trace (42.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:33:21) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:34:08) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:34:09) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:36:43) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:36:44) [GET]
+Rendering welcome/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:36:45) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:37:00) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:37:04) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:37:26) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDIv_qf_v____8B"}
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDIv_qf_v____8B]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:38:05) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:38:11) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDO28zY-v____8B"}
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDO28zY-v____8B]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:38:54) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDO28zY-v____8B"}
+Rendering welcome/index
+Completed in 870ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDO28zY-v____8B]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:39:09) [GET]
+
+ArgumentError (Token cannot be nil.):
+  gdata (1.1.0) lib/gdata/auth/authsub.rb:46:in `initialize'
+  gdata (1.1.0) lib/gdata/client/base.rb:169:in `new'
+  gdata (1.1.0) lib/gdata/client/base.rb:169:in `authsub_token='
+  app/controllers/welcome_controller.rb:9:in `index'
+
+Rendered rescues/_trace (88.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:39:46) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.nil):
+  app/controllers/welcome_controller.rb:9:in `index'
+
+Rendered rescues/_trace (33.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:39:58) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:40:03) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDB3M-pAw"}
+Rendering welcome/index
+Completed in 1148ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDB3M-pAw]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:44:31) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:44:36) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDKqIY5"}
+Rendering welcome/index
+Completed in 610ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDKqIY5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:45:34) [GET]
+Rendering welcome/index
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:45:40) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDQj7iS-_____8B"}
+Rendering welcome/index
+Completed in 688ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDQj7iS-_____8B]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:47:42) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:47:47) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCpzILRAQ"}
+Rendering welcome/index
+Completed in 1210ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCpzILRAQ]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#logout (for 127.0.0.1 at 2009-05-08 21:47:52) [GET]
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb7b2c96c>):
+  app/controllers/welcome_controller.rb:19:in `logout'
+
+Rendered rescues/_trace (33.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:48:44) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:48:50) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCHmP0t"}
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb75c5b90>):
+  app/controllers/welcome_controller.rb:11:in `index'
+
+Rendered rescues/_trace (76.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:49:08) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCHmP0t"}
+Rendering welcome/index
+Completed in 718ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCHmP0t]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#logout (for 127.0.0.1 at 2009-05-08 21:49:10) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.auth_handler):
+  app/controllers/welcome_controller.rb:19:in `logout'
+
+Rendered rescues/_trace (99.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:51:28) [GET]
+Rendering welcome/index
+Completed in 24ms (View: 3, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 21:51:33) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCf86aEAw"}
+Rendering welcome/index
+Completed in 831ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCf86aEAw]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#logout (for 127.0.0.1 at 2009-05-08 21:51:36) [GET]
+
+NameError (undefined local variable or method `client' for #<WelcomeController:0xb75bbaa0>):
+  app/controllers/welcome_controller.rb:19:in `logout'
+
+Rendered rescues/_trace (70.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:01:27) [GET]
+testing
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#logout (for 127.0.0.1 at 2009-05-08 22:01:41) [GET]
+
+NoMethodError (undefined method `debu' for #<ActiveSupport::BufferedLogger:0xb7587f98>):
+  app/controllers/welcome_controller.rb:8:in `logout'
+
+Rendered rescues/_trace (111.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#logout (for 127.0.0.1 at 2009-05-08 22:02:48) [GET]
+logout
+
+ActionView::MissingTemplate (Missing template welcome/logout.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#logout (for 127.0.0.1 at 2009-05-08 22:03:15) [GET]
+logout
+
+ActionView::MissingTemplate (Missing template welcome/logout.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-08 22:04:48) [GET]
+
+SyntaxError (/home/mauo/Documents/goog/app/controllers/welcome_controller.rb:9: syntax error, unexpected '=', expecting kEND
+		render :text = "you have been logout " and return
+		              ^):
+  
+
+Rendered rescues/_trace (104.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:05:27) [GET]
+testing
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:05:31) [GET]
+testing
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#logout (for 127.0.0.1 at 2009-05-08 22:05:37) [GET]
+logout
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#logout (for 127.0.0.1 at 2009-05-08 22:06:56) [GET]
+logout
+this is my client yo
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/logout]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:30:56) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.authsub_token=):
+  app/controllers/application_controller.rb:25:in `setup_goog_client'
+
+Rendered rescues/_trace (91.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:32:42) [GET]
+
+NameError (uninitialized constant GData::AuthSub):
+  app/controllers/application_controller.rb:13:in `setup_goog_client'
+
+Rendered rescues/_trace (85.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:33:29) [GET]
+Rendering welcome/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:33:33) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:36:35) [GET]
+Rendering welcome/index
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:36:39) [GET]
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:37:09) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:37:10) [GET]
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:37:11) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:37:12) [GET]
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:37:13) [GET]
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:39:12) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:39:13) [GET]
+setup called
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:39:14) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:39:15) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:39:16) [GET]
+setup called
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:40:47) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:40:51) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:41:30) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:41:55) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCTqN3BBg"}
+setup called
+got token
+
+NoMethodError (undefined method `auth_handler_upgrade' for #<GData::Client::Calendar:0xb7746988>):
+  app/controllers/application_controller.rb:27:in `setup_goog_client'
+
+Rendered rescues/_trace (70.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:45:14) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCTqN3BBg"}
+setup called
+got token
+
+NoMethodError (undefined method `authsub_token' for #<GData::Client::Calendar:0xb7a3e578>):
+  app/controllers/application_controller.rb:27:in `setup_goog_client'
+
+Rendered rescues/_trace (81.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:45:18) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCTqN3BBg"}
+setup called
+got token
+
+NoMethodError (undefined method `authsub_token' for #<GData::Client::Calendar:0xb785a43c>):
+  app/controllers/application_controller.rb:27:in `setup_goog_client'
+
+Rendered rescues/_trace (42.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:45:19) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCTqN3BBg"}
+setup called
+got token
+
+NoMethodError (undefined method `authsub_token' for #<GData::Client::Calendar:0xb759b714>):
+  app/controllers/application_controller.rb:27:in `setup_goog_client'
+
+Rendered rescues/_trace (52.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:45:49) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:45:57) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhD8lafuAg"}
+setup called
+got token
+Rendering welcome/index
+Completed in 1471ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhD8lafuAg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:53:46) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:53:54) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCJjPzxAg"}
+setup called
+got token
+Rendering welcome/index
+Completed in 1046ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCJjPzxAg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:55:20) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCJjPzxAg"}
+setup called
+Rendering welcome/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCJjPzxAg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:55:26) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCJjPzxAg"}
+setup called
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCJjPzxAg]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:55:27) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCJjPzxAg"}
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCJjPzxAg]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:55:30) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:55:38) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:55:52) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 22:55:59) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhD7l_WA-_____8B"}
+setup called
+got token
+Rendering welcome/index
+Completed in 722ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhD7l_WA-_____8B]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#logout (for 127.0.0.1 at 2009-05-08 22:56:02) [GET]
+setup called
+Completed in 1047ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/logout]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:10:32) [GET]
+setup called
+Rendering welcome/index
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:10:34) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:10:37) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:10:50) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:10:54) [GET]
+setup called
+Rendering welcome/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:10:55) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:11:47) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:11:52) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDbs8Cn-P____8B"}
+setup called
+got token
+Rendering welcome/index
+Completed in 970ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDbs8Cn-P____8B]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#feeds (for 127.0.0.1 at 2009-05-08 23:11:56) [GET]
+setup called
+
+ActionController::UnknownAction (No action responded to feeds. Actions: feed, index, logout, and setup_goog_client):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:12:20) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDbs8Cn-P____8B"}
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDbs8Cn-P____8B]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:12:34) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:12:40) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDkqJiGBw"}
+setup called
+got token
+Rendering welcome/index
+Completed in 725ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDkqJiGBw]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#feeds (for 127.0.0.1 at 2009-05-08 23:12:43) [GET]
+setup called
+Completed in 1620ms (View: 3, DB: 0) | 200 OK [http://localhost/welcome/feeds]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:14:28) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:15:03) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:15:08) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDNtbq_AQ"}
+setup called
+got token
+Rendering welcome/index
+Completed in 787ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDNtbq_AQ]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#feeds (for 127.0.0.1 at 2009-05-08 23:15:11) [GET]
+setup called
+Completed in 900ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/feeds]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#feeds (for 127.0.0.1 at 2009-05-08 23:15:12) [GET]
+setup called
+Completed in 1379ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/feeds]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#feeds (for 127.0.0.1 at 2009-05-08 23:16:27) [GET]
+setup called
+Completed in 989ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/feeds]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#feeds (for 127.0.0.1 at 2009-05-08 23:16:28) [GET]
+setup called
+Completed in 868ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome/feeds]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:30:06) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:30:12) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCvrPK__P____8B"}
+setup called
+got token
+Rendering welcome/index
+Completed in 713ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCvrPK__P____8B]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-08 23:30:19) [GET]
+  Parameters: {"acton"=>"all"}
+
+ActionController::RoutingError (No route matches "/contacts" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 127.0.0.1 at 2009-05-08 23:30:55) [GET]
+  Parameters: {"acton"=>"all"}
+
+NoMethodError (undefined method `setup_client' for #<ContactsController:0xb7523a5c>):
+  
+
+Rendered rescues/_trace (64.7ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 127.0.0.1 at 2009-05-08 23:31:35) [GET]
+  Parameters: {"acton"=>"all"}
+
+NoMethodError (undefined method `setup_good_client' for #<ContactsController:0xb78340d4>):
+  
+
+Rendered rescues/_trace (66.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#index (for 127.0.0.1 at 2009-05-08 23:31:48) [GET]
+  Parameters: {"acton"=>"all"}
+setup called
+
+ActionController::UnknownAction (No action responded to index. Actions: all and setup_goog_client):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:32:33) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhCvrPK__P____8B"}
+setup called
+Rendering welcome/index
+Completed in 20ms (View: 14, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhCvrPK__P____8B]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:32:44) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 21ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:32:51) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDEvqvD-v____8B"}
+setup called
+got token
+Rendering welcome/index
+Completed in 596ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDEvqvD-v____8B]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-08 23:32:57) [GET]
+setup called
+Completed in 712ms (View: 7, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-08 23:34:41) [GET]
+setup called
+Completed in 1172ms (View: 57, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-08 23:36:13) [GET]
+setup called
+Completed in 1220ms (View: 57, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:50:03) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:50:05) [GET]
+setup called
+Rendering welcome/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#all (for 127.0.0.1 at 2009-05-08 23:50:12) [GET]
+
+SyntaxError (/home/mauo/Documents/goog/app/controllers/contacts_controller.rb:14: syntax error, unexpected kDO, expecting ')'
+			entry.elements.each('gd:email' do |email|
+			                                 ^
+/home/mauo/Documents/goog/app/controllers/contacts_controller.rb:25: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (67.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-08 23:50:40) [GET]
+setup called
+
+NameError (uninitialized constant ContactsController::GContact):
+  app/controllers/contacts_controller.rb:12:in `all'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  /usr/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  app/controllers/contacts_controller.rb:11:in `all'
+
+Rendered rescues/_trace (88.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:51:36) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:51:43) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDK5-r1-v____8B"}
+setup called
+got token
+Rendering welcome/index
+Completed in 602ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDK5-r1-v____8B]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-08 23:51:46) [GET]
+setup called
+
+NameError (uninitialized constant ContactsController::GContact):
+  app/controllers/contacts_controller.rb:12:in `all'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  /usr/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  app/controllers/contacts_controller.rb:11:in `all'
+
+Rendered rescues/_trace (32.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-08 23:58:25) [GET]
+setup called
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-08 23:58:32) [GET]
+setup called
+
+NameError (uninitialized constant ContactsController::GContact):
+  app/controllers/contacts_controller.rb:12:in `all'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  /usr/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  app/controllers/contacts_controller.rb:11:in `all'
+
+Rendered rescues/_trace (31.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-08 23:58:54) [GET]
+setup called
+
+NameError (uninitialized constant ContactsController::GContact):
+  app/controllers/contacts_controller.rb:12:in `all'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  /usr/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  app/controllers/contacts_controller.rb:11:in `all'
+
+Rendered rescues/_trace (88.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-08 23:58:59) [GET]
+setup called
+
+NameError (uninitialized constant ContactsController::GContact):
+  app/controllers/contacts_controller.rb:12:in `all'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  /usr/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  app/controllers/contacts_controller.rb:11:in `all'
+
+Rendered rescues/_trace (31.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-08 23:59:33) [GET]
+setup called
+
+NameError (uninitialized constant GData::GContact):
+  app/controllers/contacts_controller.rb:12:in `all'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  /usr/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  app/controllers/contacts_controller.rb:11:in `all'
+
+Rendered rescues/_trace (33.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:04:53) [GET]
+setup called
+
+NameError (uninitialized constant ContactsController::GContact):
+  app/controllers/contacts_controller.rb:12:in `all'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  /usr/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  app/controllers/contacts_controller.rb:11:in `all'
+
+Rendered rescues/_trace (32.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:06:13) [GET]
+setup called
+Completed in 6422ms (View: 0, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:09:31) [GET]
+setup called
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.text):
+  app/controllers/contacts_controller.rb:12:in `all'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  /usr/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  app/controllers/contacts_controller.rb:11:in `all'
+
+Rendered rescues/_trace (87.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:10:21) [GET]
+setup called
+
+RuntimeError (Not all elements respond to to_xml):
+  app/controllers/contacts_controller.rb:16:in `all'
+
+Rendered rescues/_trace (31.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:10:49) [GET]
+setup called
+Completed in 1346ms (View: 0, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#all (for 127.0.0.1 at 2009-05-09 00:13:03) [GET]
+
+SyntaxError (/home/mauo/Documents/goog/app/controllers/contacts_controller.rb:23: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (72.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:13:33) [GET]
+setup called
+
+NoMethodError (undefined method `email=' for "Andre Silva":String):
+  app/controllers/contacts_controller.rb:15:in `all'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  /usr/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  app/controllers/contacts_controller.rb:12:in `all'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  /usr/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  app/controllers/contacts_controller.rb:11:in `all'
+
+Rendered rescues/_trace (33.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:14:07) [GET]
+setup called
+
+NameError (undefined local variable or method `contact' for #<ContactsController:0xb6657b68>):
+  app/controllers/contacts_controller.rb:18:in `all'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  /usr/lib/ruby/1.8/rexml/xpath.rb:53:in `each'
+  /usr/lib/ruby/1.8/rexml/element.rb:892:in `each'
+  app/controllers/contacts_controller.rb:11:in `all'
+
+Rendered rescues/_trace (86.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:14:30) [GET]
+setup called
+Completed in 1342ms (View: 0, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:16:02) [GET]
+setup called
+Completed in 1885ms (View: 0, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:24:17) [GET]
+setup called
+Completed in 1697ms (View: 0, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:24:46) [GET]
+setup called
+
+RuntimeError (Not all elements respond to to_xml):
+  app/controllers/contacts_controller.rb:22:in `all'
+
+Rendered rescues/_trace (36.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:28:23) [GET]
+setup called
+
+NoMethodError (undefined method `title' for #<REXML::Element:0xb690d2a4>):
+  app/controllers/contacts_controller.rb:10:in `all'
+
+Rendered rescues/_trace (89.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:28:30) [GET]
+setup called
+
+NoMethodError (undefined method `title' for #<REXML::Element:0xb68a0460>):
+  app/controllers/contacts_controller.rb:10:in `all'
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:29:09) [GET]
+setup called
+
+NoMethodError (undefined method `title' for #<REXML::Element:0xb69078f4>):
+  app/controllers/contacts_controller.rb:10:in `all'
+
+Rendered rescues/_trace (32.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:30:08) [GET]
+setup called
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/contacts_controller.rb:10:in `elements'
+  app/controllers/contacts_controller.rb:10:in `all'
+
+Rendered rescues/_trace (87.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:30:23) [GET]
+setup called
+
+NoMethodError (undefined method `element' for #<REXML::Element:0xb690ff54>):
+  app/controllers/contacts_controller.rb:10:in `all'
+
+Rendered rescues/_trace (30.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:30:57) [GET]
+setup called
+Completed in 1304ms (View: 0, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:31:12) [GET]
+setup called
+
+NoMethodError (undefined method `title' for #<REXML::Element:0xb690fb30>):
+  app/controllers/contacts_controller.rb:10:in `all'
+
+Rendered rescues/_trace (30.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#all (for 127.0.0.1 at 2009-05-09 00:33:37) [GET]
+
+SyntaxError (/home/mauo/Documents/goog/app/controllers/contacts_controller.rb:10: syntax error, unexpected tIDENTIFIER, expecting kEND
+		@owner = feed.elements.each('title') map |c.value|
+		                                        ^
+/home/mauo/Documents/goog/app/controllers/contacts_controller.rb:11: syntax error, unexpected tSYMBEG, expecting kDO or '{' or '('
+		render :text => @owner and return
+		        ^):
+  
+
+Rendered rescues/_trace (131.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#all (for 127.0.0.1 at 2009-05-09 00:36:52) [GET]
+
+SyntaxError (/home/mauo/Documents/goog/app/controllers/contacts_controller.rb:10: syntax error, unexpected '['
+		@owner = feed.elements.['title'].text 
+		                        ^
+/home/mauo/Documents/goog/app/controllers/contacts_controller.rb:10: syntax error, unexpected ']', expecting kEND
+		@owner = feed.elements.['title'].text 
+		                                ^):
+  
+
+Rendered rescues/_trace (89.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#all (for 127.0.0.1 at 2009-05-09 00:36:54) [GET]
+
+SyntaxError (/home/mauo/Documents/goog/app/controllers/contacts_controller.rb:10: syntax error, unexpected '['
+		@owner = feed.elements.['title'].text 
+		                        ^
+/home/mauo/Documents/goog/app/controllers/contacts_controller.rb:10: syntax error, unexpected ']', expecting kEND
+		@owner = feed.elements.['title'].text 
+		                                ^):
+  
+
+Rendered rescues/_trace (46.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:37:11) [GET]
+setup called
+Completed in 1242ms (View: 0, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:38:58) [GET]
+setup called
+Completed in 1655ms (View: 0, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:43:37) [GET]
+setup called
+
+ActionView::MissingTemplate (Missing template contacts/all.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:44:13) [GET]
+setup called
+
+ActionView::MissingTemplate (Missing template contacts/all.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:45:24) [GET]
+setup called
+Rendering contacts/all
+Completed in 1487ms (View: 5, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:46:24) [GET]
+setup called
+Rendering contacts/all
+Completed in 1907ms (View: 3, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:46:54) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds%2F&session=1&secure=0
+
+GData::Client::AuthorizationError (request error 401: <HTML>
+<HEAD>
+<TITLE>Authorization required</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Authorization required</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  gdata (1.1.0) lib/gdata/client/base.rb:87:in `make_request'
+  gdata (1.1.0) lib/gdata/client/base.rb:103:in `get'
+  app/controllers/contacts_controller.rb:7:in `all'
+
+Rendered rescues/_trace (89.4ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-09 00:47:21) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-09 00:47:33) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhDOmNLT-P____8B"}
+setup called
+got token
+Rendering welcome/index
+Completed in 841ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhDOmNLT-P____8B]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 00:47:36) [GET]
+setup called
+Rendering contacts/all
+Completed in 6874ms (View: 1, DB: 0) | 200 OK [http://localhost/contacts/all]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-09 01:08:02) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 11ms (View: 4, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-09 01:08:25) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-09 01:08:25) [GET]
+setup called
+setting up
+link https://www.google.com/accounts/AuthSubRequest?next=http%3A%2F%2Flocalhost%3A3000%2Fwelcome%2F&scope=http%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds%2F&session=1&secure=0
+Rendering welcome/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/welcome]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-05-09 01:08:54) [GET]
+  Parameters: {"token"=>"CPuD4tmdHhC3usz3-f____8B"}
+setup called
+got token
+Rendering welcome/index
+Completed in 890ms (View: 2, DB: 0) | 200 OK [http://localhost/welcome/?token=CPuD4tmdHhC3usz3-f____8B]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#feeds (for 127.0.0.1 at 2009-05-09 01:11:53) [GET]
+setup called
+
+GData::Client::AuthorizationError (request error 401: <HTML>
+<HEAD>
+<TITLE>Token invalid - AuthSub token has wrong scope</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Token invalid - AuthSub token has wrong scope</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+):
+  gdata (1.1.0) lib/gdata/client/base.rb:87:in `make_request'
+  gdata (1.1.0) lib/gdata/client/base.rb:103:in `get'
+  app/controllers/welcome_controller.rb:12:in `feeds'
+
+Rendered rescues/_trace (44.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactsController#all (for 127.0.0.1 at 2009-05-09 01:11:57) [GET]
+setup called
+Rendering contacts/all
+Completed in 1903ms (View: 5, DB: 0) | 200 OK [http://localhost/contacts/all]

@@ -1,0 +1,9 @@
+<h1>Welcome#index</h1>
+	<% if @goog_ok %>
+		<%= link_to "logout", "logout" %><br/>
+		<%= link_to "contacts", :controller => "contacts", :action => "all" %>
+		<%= link_to 'get feed', 'feeds' %><br/>
+		<%= @welcome_message %>
+	<% else %>
+		<%= link_to "google login",@authsub_link %>
+	<% end %>
